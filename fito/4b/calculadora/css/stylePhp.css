@@ -1,0 +1,9 @@
+.azul{
+    width: 100% auto;
+    height: 300px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+    color: white;
+}
