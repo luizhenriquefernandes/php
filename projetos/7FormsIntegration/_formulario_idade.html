@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - Prof. Luiz henrique</title>
+</head>
+<body>
+<div>
+    <form method="get" action="02idade.php">
+        Nome: <input type="text" name="nome"><br/>
+        Ano de Nascimento: <input type="number" name="ano"> <br/>
+        <!--fieldset é uma borda e legend deixará em evidência-->
+        <fieldset><legend>Sexo</legend>
+        <input type="radio" name="sexo" id="masc" value = "homem" checked/><!--checked deixa marcado opcional-->
+            <!--radio botão de bolinha-->
+        <label for = "masc"> Masculino </label><br/>
+        <input type = "radio" name ="sexo" id="fem" value = "mulher"/>
+        <label for ="fem">Feminino</label><br/>
+        </fieldset><br/>
+        <input type="submit" value="enviar">
+    </form>
+
+</div>
+</body>
+</html>
+ 

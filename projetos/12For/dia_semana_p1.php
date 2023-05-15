@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - Prof. Luiz henrique</title>
+    <link rel="shortcut icon" href="imagens/logo3.ico" type="x-icon">
+
+</head>
+<body>
+<div>
+
+    <form method="get" action="dia_semana_p2.php">
+       <?php
+       print("Dia da Semana <input type = 'number' name = 'diaSem' min = '1' max = '8' required=''/>");
+       ?>
+
+        <!-- Babe you dont't know this:
+        max ele limita o numero e o min limita o numero na caixa ele não deixa inserir nenhum
+        valor acima e nenhum valor abaixo.
+        required é um campo que não permite cálculo com o espaço vazio. Obrigatóriamente é necessário
+        inserir um valor. Ideal para PassWords, Logins, etc.-->
+        </br> <input type = "submit" class = "botao" value = "Analisar"/>
+    </form>
+</div>
+</body>
+</html>
+
+

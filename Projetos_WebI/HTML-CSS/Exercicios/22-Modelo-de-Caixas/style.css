@@ -1,0 +1,96 @@
+
+/*inserindo identidade dentro do css
+PARTE 1
+Modelo de caixa
+tudo o que aparece em html são caixas uma dentro da outra e forma-se uma hierarquia de caixas ou aninhamentos.
+Todo o elemento visível em uma tela é uma caixa.
+No CSS quano há configuração é configurado as caixas.
+MORFOLOGIA DA CAIXA
+height - altura
+width - largura
+border para se traçar linha
+padding é um preenchimento do espaço intenor entre a borda e a fonte
+outline - é um contorno além da borda
+Tipos de caixa
+box-level
+ao terminar a linha - sempre se inicia em linha nova
+sempre ocupa lugar total da tela 100% do view port
+exemplos box level
+h1 - h6
+nav
+footer
+aside
+article
+head
+main
+p
+aside
+form
+video
+
+inline-level
+Ao terminar a linha a linha ele monta a caixa do lado e depois para a a linha de baixo novamente.
+Exemplos não quebram linha e não ocupam largura inteira da tela.
+span
+a
+code
+small
+strong
+em
+sup - sub
+label
+button
+input
+select
+
+diferenças
+div - quando quiser quebrar a linha e criar box com a largura inteira
+span - quando ocupar a linha e a caixa fique ao lado
+
+PARTE 2
+PRÁTICA
+
+*/
+@charset "UTF - 8";
+/*configurando o h1*/
+h1{
+    /*display: inline ele deixa tudo nomesmo bloco*/
+    background-color: rgb(231, 227, 227);
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: gray;
+    /*Configurando o padding
+    dentro das bordas existem os padings dividos em 4 partes*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;   
+    /*aula 2 configurando margens*/
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    /*inserindo uma borda de contorno*/
+    outline: 5px dashed salmon;
+}
+a.top{
+    /*display: block deixa tudo em uma única linha fazer o teste*/
+    /*borda para fora*/
+    border-width: 10px;
+    border-style: groove;
+    border-color: red;
+    /*borda para dentro*/
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; 
+}
+/*Simplificado as linhas
+ao invés de digitar as 4 linhas
+da para resumir
+
+border: 10px solid gray
+padding: 10px tudo fica igual
+margin: 20px 20px 40px 20px*/

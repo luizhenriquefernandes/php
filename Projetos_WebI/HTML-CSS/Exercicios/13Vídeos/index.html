@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="midia/logo3.ico" type="image/x-icon">
+    <title>Cursos</title>
+</head>
+<body>
+    <h1>Cursos</h1>
+    <p>Ferramentas Handbreak ajuda a editar vídeos <br>
+    Openshot também todos são open source</p>
+    <p>Inserindo Vídeos! Tem que fazer conversão para vários arquivos para que sejam compatíveis com todos os browsers para que não dê problemas de visualização.</p>
+    <p>Vídeo em mp4</p>
+    <video src="midia/WindTurbineonaFieldatSunrise.mp4" width="500" controls></video>
+    <p>Vídeo em m4v</p>
+    <video src="midia/Windturbineonafieldatsunrise.m4v" width="500" controls></video>
+    <p>Vídeo em webm</p>
+    <video src="midia/Windturbineonafieldatsunrise.webm" width="500" controls></video>
+    <p>Vídeo em ogv formato open source funciona na maioria dos browsers mas no safari que é a base do i fone não.</p>
+    <video src="midia/WindTurbineonaFieldatSunrise.ogv" width="500" controls></video>
+    <p>Para resolver o problema é importante fazer o video contros e a tag source <br>
+    fazer a compatibilidade por tamanho sempre do maior para o menor</p>
+    <!--Carregando vídeos para vários formatos mas pode deixar o site lento-->
+    <video controls width="560">
+        <source src="midia/WindTurbineonaFieldatSunrise.mp4" type="video/mp4">
+        <source src="midia/WindTurbineonaFieldatSunrise.ogv" type="midia/ogv">
+        <source src="midia/Windturbineonafieldatsunrise.webm" type="video/webm">
+        <source src="midia/Windturbineonafieldatsunrise.m4v" type="video/mp4">
+        <p>Seu navegador não tem capacidade download</p>
+        <a href="midia/WindTurbineonaFieldatSunrise.mp4"></a>
+    </video>
+    <!--Incorporando vídeo de sites uma forma de deixar o site mais leve-->
+    <!--Copiar o vídeo de interesse e incorporar vídeo-->
+    <h1>Inserindo Vídeos do You Tube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JKS_vCqcqdA" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="imagens/logo3.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito na linguagem java script e também serve para alinhar as fontes</p>
+    <p>Na linguagem python
+        <code>
+            num = int(input('Digite o número: '))
+            if num %2 == 0:
+                print(f'O número {num} é par')
+            else:
+                print(f'O número {num} é ímpar: ')
+            print('Fim do Programa')
+        </code><!--ele não identa para indentar utilizar a tag pre-->
+        <pre>
+            <code>
+num = int(input('Digite o número: '))
+if num %2 == 0:
+    print(f'O número {num} é par')
+else:
+    print(f'O número {num} é ímpar: ')
+print('Fim do Programa')
+</code>
+
+        </pre>
+    </p>
+<h1>Citações Simples</h1>
+<p>Segundo Raven: <q>A fotossíntese é um processo cíclico e acíclico.</q></p>
+<p>A tag q é utilizada para Citações</p>   
+<h1>Citações Indiretas</h1>
+<p>Segundo (RAVEN,2011) em seu livro Biology:</p>
+<blockquote cite="https://www.macmillanlearning.com/college/us/product/Raven-Biology-of-Plants/p/1429219610">
+    The Calvin cycle can be thought of as divided into three
+    phases: (1) carbon fixation, (2) reduction, and (3) regeneration
+    of RuBP. The carbon fixation reaction generates two molecules of the 3- carbon acid PGA; PGA is then reduced to G3P
+    by reactions that are essentially a reverse of part of glycolysis;
+    finally, the PGA is used to regenerate RuBP.
+    <!--Pode usar o cite dentro da tag para referenciar o endereço do livro-->
+</blockquote>
+<h1>Abreviaturas</h1>
+<p>A célula <abbr title="Antes do Núcleo restrio a bactérias e cianobactérias">Procarionte</abbr> e a célula <abbr title ="Células com membrana nuclear" >Eucariontes</abbr>.</p>
+</body>
+</html>

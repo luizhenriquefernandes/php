@@ -1,0 +1,108 @@
+@charset "UTF - 8";
+/*inserindo identidade dentro do css
+dentro de um h1 por exemplo podemos dar diferentes classes para 
+deixar com diferentes configurações.
+inserir class dentro do h1
+Em HTML TUDO O QUE É ID em CSS   É O MESMO QUE #
+Em HTML TUDO QUE É CLASS EM CSS É .
+HTML id CSS #
+HTML class = . em CSS
+Quando se quer usar uma mesma configuração para outros elementos é necessário utilizar a configuração class, o id não pode ser usado para diversas configurações apenas para uma.
+PSEUDO CLASSE VISITED - ao se visitar o site ele pode ficar indicado
+PSEUDOCLASSE HOVER - altera um elemento da classe
+PSEUDOCLASSE ACTIVE- quando o link é clicado ele fica com a cor alterada ex.
+:: os pseudo elementos funcionam para id e para as classes
+
+SELETORES PERSONALIZADOS
+# = id
+. = class
+: = pseudo-class
+:: = pseudo-elemento
+> = children
+*/
+body{
+    background-color: rgb(205, 255, 203);
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color:rgb(4, 109, 0);
+}
+h1#princial{
+    text-align: center;
+    background-color:rgb(4, 109, 0);
+    color:white
+}
+h2{
+    color:rgb(51, 77, 49);
+}
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: darkorange;
+}
+.especial{
+    background-color: rgb(216, 150, 245);
+}
+.especial::before{
+content: '➡';
+}
+.especial::after{
+    content: '⬅';
+
+}
+
+.basico{
+    color: #3c805e;
+    font-weight: bold;
+}
+.intermediario{
+    color:#80793c;
+}
+.avancado{
+    color:#803c3c;
+}
+.destaque{
+    background-color: rgb(197,197,96,0.438);
+}
+div{
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+
+}
+/*O parágrafo que está dentro da div [div > p]
+neste exemplo se está mexendo em um parágrafo dentro da div
+*/
+div > p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+}
+div:hover{
+    font-family: cursive;
+    color: red;
+    width: 300px;
+}
+/*
+div: hover consegue alterar um elemento dentro desta classe apenas apontando o mouse por cima.
+*/
+div:hover{
+    background-color: yellow;
+}

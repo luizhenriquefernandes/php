@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Imagens</title>
+</head>
+<body>
+   <h1>Tipos de Imagens</h1>
+   <p>Páginas para celulares: <br>
+      A melhor tamanho é 300x300 e resolução 80x80. <br>
+      Pode usar qualquer programa de edição de imagem para fazer isso.</p> <br>
+      Para Tablets: <br>
+      tamanho 700x700 resolução 80x80. <br>
+      Para notebooks: <br>
+      tamanho 1000x 1000 resolução 80x80.
+      <h1>Inserindo Imagens Dinâmicas</h1>
+      <p>Abrindo este arquivo em vários dispositivos, ou aumente e diminua o tamanho</p>
+      <p>Para isso é importante utilizar a tag picture que servirá para dimensionar as imagens de forma automática. <br>
+      Neste momento há um problema, porque se for um dispositivo com tamanho de tela reduzido a imagem irá rolar, em dispositivos móveis o usuário vai embora, para corrigir isso deve usar a tag: <br>
+      Source:media:type </p>
+      <picture>
+            <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="Imagens/medio.png" type="image/png">
+            <img src="Imagens/grande.png" alt="Imagem Flexível">
+      </picture>
+      <p>Fazer do Max para min é mais fácil</p>
+      <picture>
+            <source media="(max-width: 750px)" srcset="Imagens/Cnidário-pequeno-unsplash.jpg.jpg" type="image/jpg">
+            <source media="(max-width: 1050px)" srcset="Imagens/Cnidário-medio-unsplash.jpg.jpg" type="image/jpg">
+            <img src="Imagens/Cnidário-grande-unsplash.jpg.jpg" alt="Imagem Flexível">
+    </picture>
+<h1>Reprodução de Audio</h1>
+<p>Inserindo um arquivo de audio mp3, lembrando que se deve possuir licença para a reproduação dos áudios.</p>
+<audio src="midia/parisian-cafe-aaron-kenny.mp3" controls autoplay> </audio>
+<p>contudo nem todos os navegadores são compativeis com a tag audio src set então deve-se criar outra aba de audio com o parâmetro type</p>
+
+<audio preload="metadata" autoplay controls>
+<source src="midia/parisian-cafe-aaron-kenny.mp3" type="audio/mpeg">
+<source src="midia/parisian-cafe-aaron-kenny.ogg" type="audio/ogg">
+<source src="midia/parisian-cafe-aaron-kenny.wav" type="audio/wav">
+<p>Faça o Download</p>
+<a href="midia/parisian-cafe-aaron-kenny.mp3"></a>
+</audio>
+
+
+</body>
+</html>

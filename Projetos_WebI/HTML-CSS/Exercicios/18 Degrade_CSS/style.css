@@ -1,0 +1,10 @@
+@charset "UTF-8";
+*{/*Configurações globais são essenciais, apica em toda a página
+    basta inseir um * antes das chaves*/
+height: 100%;
+}
+body{/*Para o degrade pode ser inserido com graus também*/
+   background-image: linear-gradient(-45deg,#38F5C6,#5EA896,#7BDBC3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

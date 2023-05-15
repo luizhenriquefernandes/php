@@ -1,0 +1,121 @@
+/*Geral*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("Overlays/Over4.jpg");
+         background-size: cover;
+    }
+/*Geral*/
+/*Home_Style*/
+    a{
+        text-decoration:none ;
+    }
+    header .menu{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        padding: 40px;
+    }
+    header .menu li{
+        display: inline-block;
+    }
+    header .menu a{
+        color: #fff;
+        padding: 8px 12px;
+        border-radius: 3px;
+        transition: 200ms;
+    }
+    header .menu ativo,header .menu a:hover{
+        color: #444;
+        background-color: #fff;
+    }
+    .principal{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .principal h2{
+        color: #fff;
+        font-size: 45px;
+    }
+    .principal .links a{
+        color: #fff;
+        padding: 10px 18px;
+        display: inline-block;
+        border: 1px solid #fff;
+        border-radius:3px;
+        margin-top: 20px;
+        transition: 200ms;
+    }
+    .principal .links a:hover{
+        color: #444;
+        background-color: #fff;
+    }
+/*Home_Style*/
+/*Register_Container*/
+.register_container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+/*Register_Container*/
+/*Formulário*/
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #08558b;
+}
+#forgot-pass{
+    text-align: center;
+    display: block;
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    margin-top:30px ;
+    color: #fff;
+    background-image:linear-gradient(#08558b,#3a0ca3);
+}
+input[type="submit"]:hover{
+    background-color: #1b223c;
+    transition: .10;
+    cursor: pointer;
+}
+/*Formulário*/
