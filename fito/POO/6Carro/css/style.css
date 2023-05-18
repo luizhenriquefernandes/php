@@ -13,3 +13,15 @@
     display:flex;
     justify-content: center;
 }
+.formularioB{
+    background-color: rgb(255, 158, 120);
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display:flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    font-style: oblique;   
+    
+}
