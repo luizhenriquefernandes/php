@@ -1,0 +1,61 @@
+.container{
+    width: 97.8vw;
+    height: 900px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 80% 10%;
+    background-color: rgb(0, 0, 0); 
+    color:white;
+}
+.centralDiv{
+    width: 60.8vw;
+    height: 800px;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: black;
+    background-image: url("../image/DEAD.png");
+    background-size: cover;
+    
+}
+.formHell{
+    width: 50.8vw;
+    height: 83vh;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+   
+}
+.formHellPost{
+    width: 15vw;
+    height: 83vh;    
+    color:rgb(255, 0, 0);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: right;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+.textForm{
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 40px;
+    text-align: center;
+}
+.btnForm{
+    background-color: brown;
+    width: 13vw;
+    font-size: 30px;
+    border-radius: 40px;
+    font-family: fantasy;
+    color: khaki;
+    
+
+
+}
