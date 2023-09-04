@@ -33,7 +33,7 @@
                                     echo("<label for='txtN$i'>Força</label>");                                    
                                         break;
                                 case '6':
-                                    echo("<label for='txtN$i'>Resistência</label>");                                    
+                                    echo("<label for='txtN$i'>Destreza</label>");                                    
                                         break;
                                 case '7':
                                     echo("<label for='txtN$i'>Inteligência</label>");                                    
@@ -42,7 +42,7 @@
                                     echo("<label for='txtN$i'>Sabedoria</label>");                                    
                                         break;
                                 case '9':
-                                    echo("<label for='txtN$i'>Categoria Armadura</label>");                                    
+                                    echo("<label for='txtN$i'>Carisma</label>");                                    
                                         break;
                             }                                                      
                             echo("<input class = 'textForm' type='text' name='txtN$i'>");                           

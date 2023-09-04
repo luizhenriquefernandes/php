@@ -1,0 +1,26 @@
+.container{
+    width:100%;
+    height: 950px;
+    display:grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 15% 70% 15%;    
+}
+.form{
+    background-color: blueviolet;    
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display:grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 15% 70% 15%;
+}
+.formTitulo{
+    background-image: linear-gradient(aquamarine, white);
+    grid-row-start: 1;
+    grid-column-start: 2;    
+}
+.formCaixaTexto{
+    background-image: linear-gradient(rgb(220, 57, 24), white);
+    
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
