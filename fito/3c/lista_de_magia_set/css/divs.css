@@ -27,11 +27,12 @@ div.central{
 .containerCentral{
     grid-column-start: 2;
     grid-row-start: 2;    
-    background-color: yellow;
+      
 }
-.divFooter{
-    grid-column-start: 3;
-    grid-row-start: 3;   
+.containerCentralForm{
 
+    background-color: black;
 }
+
+
 
