@@ -1,0 +1,37 @@
+.divContainer{
+    width:97vw;
+    height:95vh;
+    display:grid;
+    grid-template-columns: 0.20fr 1fr 0.20fr;
+    grid-template-rows: 0.20fr 1fr 0.20fr;
+    background-color: green;    
+}
+div.central{    
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: brown;
+    display:grid;
+    grid-template-columns: 0.20fr 1fr 0.20fr;
+    grid-template-rows: 0.20fr 1fr 0.20fr;
+    
+    
+}
+.containerSuperior{
+    grid-column-start: 2;
+    grid-row-start: 1;    
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerCentral{
+    grid-column-start: 2;
+    grid-row-start: 2;    
+    background-color: yellow;
+}
+.divFooter{
+    grid-column-start: 3;
+    grid-row-start: 3;   
+
+}
+
