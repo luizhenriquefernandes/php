@@ -1,0 +1,17 @@
+.container{
+    width: 100vw;
+    height: 97.5vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+.containerFilha{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: rgb(246, 246, 213);
+}
+.containerFilha1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: rgb(214, 246, 194);
+}

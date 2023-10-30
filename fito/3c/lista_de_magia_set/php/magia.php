@@ -14,9 +14,14 @@
        echo("$numero2<br>");
        $numero3 = isset($_GET['txtNumero3'])?$_GET['txtNumero3']:0;
        echo("$numero3<br>");
-       
+       echo("<button id = 'btnVoltar' onclick='voltar()'>voltar</button>");
+       function voltar(){
+        
+        header('Location: ../index.php');  
+       }
+         
     ?>
-    <button id = "btnVoltar" onclick="voltar()">voltar</button>
-    <script src="../js/app.js"></script>
+    <!--  -->
+    
 </body>
 </html>

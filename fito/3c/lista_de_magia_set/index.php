@@ -20,14 +20,13 @@
             print("<input type='text' name='txtNumero{$i}'id=''>");            
             }
             print("<input type = 'submit' value = 'Lançar'>");                                              
-        ?>  
-                  
+        ?>                  
         </form>
         
         
     </div><!--  fim containerCentral -->
     </div><!--  fim central -->
     </div><!--  fim divContainer --> 
-    <script src="./js/app.js"></script>
+   
 </body>
 </html>
